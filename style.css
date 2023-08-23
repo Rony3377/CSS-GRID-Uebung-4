@@ -1,0 +1,77 @@
+/*header format*/
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+header .bild {
+  width: 25px;
+}
+header ol {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+header ol li {
+  padding: 10px;
+}
+
+header .feld {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+input {
+  background-color: wheat;
+}
+main {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.box2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border: teal 2px solid;
+  grid-column-start: 2;
+  background-color: violet;
+}
+.box3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border: indigo 3px solid;
+  background-color: turquoise;
+}
+
+main img {
+  width: 200px;
+}
+.box4 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border: indianred 2px solid;
+  grid-column-start: 2;
+  grid-row-start: 3;
+  background-color: yellowgreen;
+}
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: burlywood solid 4px;
+}
+
+.feld1 {
+  border: yellowgreen solid 2px;
+  margin: 10px;
+}
+.feld2 {
+  border: yellowgreen solid 2px;
+  margin: 10px;
+}
